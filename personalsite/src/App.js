@@ -1,22 +1,21 @@
-import logo from './logo.svg';
 import fireplace from './IMG_3975 copy.jpg'
-import boat from './IMG_4384.jpeg'
-import istanbul from './IMG_3118.jpeg'
 import './App.css';
 import ImageSlider from './components/ImageSlider';
-import {Sliderdata} from './components/SliderData';
+import {SliderData} from './components/SliderData';
+import ImageSlide from './components/ImageSlide';
+import Navbar from "./components/Navbar/Navbar"
+
 
 function App() {
   return (
     <div className="App">
-
-      
 
       <head>
     <title>Page Title</title>
     </head>
  <body>
     <body>
+      <Navbar/>
         <h1>Welcome to my Page!</h1>
         
         <h2>About Me</h2>
@@ -31,21 +30,14 @@ function App() {
             <li>Traveling</li>
             <li>COD and 2K</li>
           </ul>
-          <img src={boat} className='image' alt="fireplace" height="200"/>
-          <img src={istanbul} className='image' alt="fireplace" height="200"/>
         </div>
-        <div>
-        <ImageSlider slides={Sliderdata}/>
-        </div>
+        
+        <ImageSlide/>
         
       </body>
  </body>
     </div>
-  );
-}
-
-function slider() {
-  return <ImageSlider />
+  )
 }
 
 export default App;

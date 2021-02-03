@@ -1,4 +1,4 @@
-export const Sliderdata = [
+export const SliderData = [
     {
         image: '/Users/mirshadmanalam/Desktop/personal-react-website-malam123/personalsite/src/IMG_3118.jpeg'
     },
