@@ -31,9 +31,9 @@ function App() {
             <li>COD and 2K</li>
           </ul>
         </div>
-        
+        <div>
         <ImageSlide/>
-        
+        </div>
       </body>
  </body>
     </div>
